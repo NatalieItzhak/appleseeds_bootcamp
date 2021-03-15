@@ -11,16 +11,18 @@ import Qst2 from './components/Quiz/qst2';
 import Quiz from './components/Quiz/quiz_3.3';
 import React from 'react';
 import Increment from './components/Increment/Increment'
-import './Counter.css'
+// import './Counter.css'
 import Counter from './components/Increment/Increment';
+import Showbox from './components/Hide and seek/hideandseek'
+import './hideandseek.css';
 
 
 
 function App() {
   return (
-    <div className="counter">
+    <div>
 
-      <Counter/>
+<Showbox/>
 
 
 
@@ -53,6 +55,7 @@ link2={'Share'}
 
 // /> */}
 {/* // {  */}
+{/* <Counter/> */}
     </div>
     
   );
