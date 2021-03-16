@@ -5,7 +5,7 @@ import React from 'react';
 // import './Counter.css'
 // import './hideandseek.css';
 import './boxani.css';
-import './Spinner.css'
+// import './Spinner.css'
 
 import Basics from './components/Basics/Basic2.2'
 import Box1 from './components/Boxes/Box1';
