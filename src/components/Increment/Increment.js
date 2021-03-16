@@ -1,22 +1,37 @@
 import React, { useState } from "react";
 
-function Counter() {
-  const [count, setCount] = useState(0);
+class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
 
-  const handleIncrement = () => {
-    setCount(prevCount => prevCount + 1);
+
+  increment() {
+    this.setState({
+      count: this.state.count + 1
+    });
   };
 
+  decrement() {
+    this.setState({
+      count: this.state.count - 1
+    });
+  };
 
-  return (
-    <div className="cont">
-      <div>
-        <button onClick={handleIncrement}>Increment</button>
-        <h3>{count}</h3>
+  render() {
+    return (
+
+      <div className="cont">
+        <button onClick={(e) => this.increment(e)}>+</button>
+        <button onClick={(e) => this.decrement(e)}>-</button>
+
+        <h3> Counter:{this.state.count}</h3>
       </div>
-      <button onClick={() => setCount(0)}>Reset</button>
-    </div>
-  );
-}
+    );
+  }
+};
 
 export default Counter;

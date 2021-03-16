@@ -11,10 +11,11 @@ import Qst2 from './components/Quiz/qst2';
 import Quiz from './components/Quiz/quiz_3.3';
 import React from 'react';
 import Increment from './components/Increment/Increment'
-// import './Counter.css'
+import './Counter.css'
 import Counter from './components/Increment/Increment';
 import Showbox from './components/Hide and seek/hideandseek'
 import './hideandseek.css';
+import LifeCycle from './components/Life Cycle Methods/lcm'
 
 
 
@@ -22,9 +23,7 @@ function App() {
   return (
     <div>
 
-<Showbox/>
-
-
+<LifeCycle />
 
  {/* <Basics /> */}
  {/* <Box1 /> */}
@@ -56,6 +55,7 @@ link2={'Share'}
 // /> */}
 {/* // {  */}
 {/* <Counter/> */}
+{/* <Showbox/> */}
     </div>
     
   );
@@ -74,6 +74,6 @@ export default App;
 //       </div>
 //     );
 //   };
-// }
+// // }
 
 // export default App;
