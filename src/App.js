@@ -1,7 +1,12 @@
-import react, {Component} from 'react';
+import React from 'react';
 // import './boxes.css'
 // import './Buttons.css'
 // import './cards.css'
+// import './Counter.css'
+// import './hideandseek.css';
+import './boxani.css';
+import './Spinner.css'
+
 import Basics from './components/Basics/Basic2.2'
 import Box1 from './components/Boxes/Box1';
 import Buttons from './components/Buttons/Buttons';
@@ -9,21 +14,20 @@ import Card from './components/Cards/Cards';
 import Qst1 from './components/Quiz/Qst1';
 import Qst2 from './components/Quiz/qst2';
 import Quiz from './components/Quiz/quiz_3.3';
-import React from 'react';
 import Increment from './components/Increment/Increment'
-import './Counter.css'
 import Counter from './components/Increment/Increment';
 import Showbox from './components/Hide and seek/hideandseek'
-import './hideandseek.css';
 import LifeCycle from './components/Life Cycle Methods/lcm'
+import Boxanimation from './components/Life Cycle Methods/Boxanim';
+import Spinner from './components/Spinner/Spinner';
 
 
 
 function App() {
   return (
     <div>
-
-<LifeCycle />
+{/* 
+<Spinner /> */}
 
  {/* <Basics /> */}
  {/* <Box1 /> */}
@@ -56,6 +60,10 @@ link2={'Share'}
 {/* // {  */}
 {/* <Counter/> */}
 {/* <Showbox/> */}
+{/* <LifeCycle /> */}
+<Boxanimation  width='200px'/>
+<Boxanimation  width='100px'/>
+<Boxanimation  width='50px'/>
     </div>
     
   );

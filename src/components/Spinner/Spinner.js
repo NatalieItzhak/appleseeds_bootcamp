@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-class LifeCycleMethod extends React.Component {
+class Spinner extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            favoriteColor: 'pink'
+         
         };
-        this.myRef  = React.createRef()
+      
     }
 
     componentDidMount() {
@@ -25,15 +25,11 @@ class LifeCycleMethod extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>
-                    My favorite color is pink
-                </h1>
-                <div id='myDiv' ref={this.myRef}></div>
-            </div>
+            <div class="loader">Loading...</div>
+               
         );
     };
 
 }
 
-export default LifeCycleMethod;
+export default Spinner;

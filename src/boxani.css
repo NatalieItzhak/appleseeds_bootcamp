@@ -1,0 +1,26 @@
+.main-cont {
+    height: 60px;
+}
+
+.box {
+    height: 60px;
+    margin: 10px;
+    background-color: rgb(193, 219, 179);
+    animation: move 1s;
+    position: relative;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@keyframes move {
+    from {
+        height: 0px;
+        left: -100px;
+    }
+    to {
+        height: 50px;
+        left: 0px;
+    }
+}
