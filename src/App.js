@@ -23,6 +23,7 @@ import Boxanimation from './components/Life Cycle Methods/Boxanim';
 import Box from './components/Life Cycle Methods/Changingbox';
 import './btn.css'
 import Parent from './components/Child to parent/parent'
+import Cbapp from './components/Child to parent/CbApp';
 
 
 
@@ -30,7 +31,8 @@ function App() {
   return (
     <div>
 
-<Parent />
+{/* <Parent /> */}
+<Cbapp />
 
 
  {/* <Basics /> */}
