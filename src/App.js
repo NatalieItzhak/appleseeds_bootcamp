@@ -21,14 +21,16 @@ import Showbox from './components/Hide and seek/hideandseek'
 import LifeCycle from './components/Life Cycle Methods/lcm'
 import Boxanimation from './components/Life Cycle Methods/Boxanim';
 import Box from './components/Life Cycle Methods/Changingbox';
+import './btn.css'
+import Parent from './components/Child to parent/parent'
 
 
 
 function App() {
   return (
     <div>
-      <Box />
 
+<Parent />
 
 
  {/* <Basics /> */}
@@ -66,6 +68,7 @@ link2={'Share'}
 {/* <Boxanimation  width='200px'/>
 <Boxanimation  width='100px'/>
 <Boxanimation  width='50px'/> */}
+      {/* <Box /> */}
     </div>
     
   );
