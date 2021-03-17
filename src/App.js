@@ -4,8 +4,9 @@ import React from 'react';
 // import './cards.css'
 // import './Counter.css'
 // import './hideandseek.css';
-import './boxani.css';
+// import './boxani.css';
 // import './Spinner.css'
+import './boxchange.css'
 
 import Basics from './components/Basics/Basic2.2'
 import Box1 from './components/Boxes/Box1';
@@ -19,15 +20,16 @@ import Counter from './components/Increment/Increment';
 import Showbox from './components/Hide and seek/hideandseek'
 import LifeCycle from './components/Life Cycle Methods/lcm'
 import Boxanimation from './components/Life Cycle Methods/Boxanim';
-import Spinner from './components/Spinner/Spinner';
+import Box from './components/Life Cycle Methods/Changingbox';
 
 
 
 function App() {
   return (
     <div>
-{/* 
-<Spinner /> */}
+      <Box />
+
+
 
  {/* <Basics /> */}
  {/* <Box1 /> */}
@@ -61,9 +63,9 @@ link2={'Share'}
 {/* <Counter/> */}
 {/* <Showbox/> */}
 {/* <LifeCycle /> */}
-<Boxanimation  width='200px'/>
+{/* <Boxanimation  width='200px'/>
 <Boxanimation  width='100px'/>
-<Boxanimation  width='50px'/>
+<Boxanimation  width='50px'/> */}
     </div>
     
   );
