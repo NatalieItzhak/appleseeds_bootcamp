@@ -6,7 +6,7 @@ import React from 'react';
 // import './hideandseek.css';
 // import './boxani.css';
 // import './Spinner.css'
-import './boxchange.css'
+// import './boxchange.css'
 
 import Basics from './components/Basics/Basic2.2'
 import Box1 from './components/Boxes/Box1';
@@ -21,9 +21,13 @@ import Showbox from './components/Hide and seek/hideandseek'
 import LifeCycle from './components/Life Cycle Methods/lcm'
 import Boxanimation from './components/Life Cycle Methods/Boxanim';
 import Box from './components/Life Cycle Methods/Changingbox';
-import './btn.css'
+// import './btn.css'
 import Parent from './components/Child to parent/parent'
 import Cbapp from './components/Child to parent/CbApp';
+import Formreiew from './components/Child to parent/Form';
+import Formw from './components/Child to parent/Form';
+import Api from './components/Api/Api'
+import './api.css'
 
 
 
@@ -31,8 +35,11 @@ function App() {
   return (
     <div>
 
+      <Api />
+{/* <Formw /> */}
+
 {/* <Parent /> */}
-<Cbapp />
+{/* <Cbapp /> */}
 
 
  {/* <Basics /> */}

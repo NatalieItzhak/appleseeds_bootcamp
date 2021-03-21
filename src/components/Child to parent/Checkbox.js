@@ -2,10 +2,12 @@ import React from 'react';
 
 class Checkbox extends React.Component {
 
-  state = {isChecked: this.props.isChecked}
+  state = {
+      isChecked: this.props.isChecked}
 
   onCheckboxChange(){
-    this.setState({isChecked: !this.state.isChecked});
+    this.setState(
+        {isChecked: !this.state.isChecked});
   }
 
   render(){
