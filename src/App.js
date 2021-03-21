@@ -7,7 +7,8 @@ import React from 'react';
 // import './boxani.css';
 // import './Spinner.css'
 // import './boxchange.css'
-import './Card.css'
+import './Avatar.css'
+// import './Card.css'
 
 import Basics from './components/Basics/Basic2.2'
 import Box1 from './components/Boxes/Box1';
@@ -30,13 +31,15 @@ import Formw from './components/Child to parent/Form';
 import Api from './components/Api/Api'
 // import './api.css'
 import Main from './components/Map Statements and Keys/Main'
+import Avatar from './components/Map Statements and Keys/Avatar/Avatar'
 
 
 
 function App() {
   return (
     <div>
-      <Main />
+      <Avatar/>
+      {/* <Main /> */}
       {/* <DataList /> */}
 
       {/* <Api /> */}
