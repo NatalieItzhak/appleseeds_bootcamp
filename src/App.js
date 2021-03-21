@@ -7,6 +7,7 @@ import React from 'react';
 // import './boxani.css';
 // import './Spinner.css'
 // import './boxchange.css'
+import './Card.css'
 
 import Basics from './components/Basics/Basic2.2'
 import Box1 from './components/Boxes/Box1';
@@ -27,15 +28,18 @@ import Cbapp from './components/Child to parent/CbApp';
 import Formreiew from './components/Child to parent/Form';
 import Formw from './components/Child to parent/Form';
 import Api from './components/Api/Api'
-import './api.css'
+// import './api.css'
+import Main from './components/Map Statements and Keys/Main'
 
 
 
 function App() {
   return (
     <div>
+      <Main />
+      {/* <DataList /> */}
 
-      <Api />
+      {/* <Api /> */}
 {/* <Formw /> */}
 
 {/* <Parent /> */}
