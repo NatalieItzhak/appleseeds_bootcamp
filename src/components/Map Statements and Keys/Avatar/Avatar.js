@@ -29,7 +29,7 @@ class Avatar extends React.Component {
     if (filter.length === 0) {
       this.setState({ displayedUsersList: this.state.usersList }, () => console.log(this.state.displayedUsersList))
     } else {
-      const filterRegex =` /${filter}, i`;
+      const filterRegex = new RegExp(`^${filter}`, 'i');
       const displayedUsersList = this.state.usersList.filter(user => filterRegex.test(user.firstName));
       this.setState({ displayedUsersList });
     }

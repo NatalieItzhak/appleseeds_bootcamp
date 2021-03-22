@@ -32,13 +32,16 @@ import Api from './components/Api/Api'
 // import './api.css'
 import Main from './components/Map Statements and Keys/Main'
 import Avatar from './components/Map Statements and Keys/Avatar/Avatar'
+import Focus from './components/Ref/Focus/Focus'
 
 
 
 function App() {
   return (
     <div>
-      <Avatar/>
+
+      <Focus/>
+      {/* <Avatar/> */}
       {/* <Main /> */}
       {/* <DataList /> */}
 
