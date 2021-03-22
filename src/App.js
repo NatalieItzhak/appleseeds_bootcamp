@@ -7,7 +7,7 @@ import React from 'react';
 // import './boxani.css';
 // import './Spinner.css'
 // import './boxchange.css'
-import './Avatar.css'
+// import './Avatar.css'
 // import './Card.css'
 
 import Basics from './components/Basics/Basic2.2'
@@ -33,14 +33,16 @@ import Api from './components/Api/Api'
 import Main from './components/Map Statements and Keys/Main'
 import Avatar from './components/Map Statements and Keys/Avatar/Avatar'
 import Focus from './components/Ref/Focus/Focus'
+import Copy from './components/Ref/Copy/Copy';
 
 
 
 function App() {
   return (
     <div>
+      <Copy/>
 
-      <Focus/>
+      {/* <Focus/> */}
       {/* <Avatar/> */}
       {/* <Main /> */}
       {/* <DataList /> */}
