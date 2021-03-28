@@ -10,14 +10,14 @@ const api = axios.create({
 export default class Main extends Component {
     state = {
         courses: []
-     
+        
+    
     }
     
     constructor() {
         super();
         this.getCourses();
         
-
     }
 
 
@@ -47,7 +47,7 @@ export default class Main extends Component {
         let data = await api.patch(`/${id}`, { title: val })
 
         this.setState({
-            data: data
+            title: data.title, Teacher: data.Teacher, price: data.price 
           
         });
         this.getCourses();
@@ -67,18 +67,22 @@ export default class Main extends Component {
 
 
                     {this.state.courses.map(course => <table key={course.id}>
+                        <thead>
                         <tr>
                             <th>Teacher</th>
                             <th>Course Subject</th>
                             <th>Price</th>
                         </tr>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>{course.Teacher}</td>
                             <td> {course.title}</td>
                             <td>{course.price}</td>
                             <td> <button onClick={() => this.deleteCourse(course.id)}>Delete Course</button></td>
-                            <td> <button onClick={() => this.updateCourse(course.id, `${course.Teacher}`)}>Update Course</button></td>
+                            <td> <button onClick={() => this.updateCourse(course.id)}>Update Course</button></td>
                         </tr>
+                        </tbody>
 
                     </table>)}
                     {/* <div>
