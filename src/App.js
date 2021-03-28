@@ -30,17 +30,27 @@ import Formreiew from './components/Child to parent/Form';
 import Formw from './components/Child to parent/Form';
 import Api from './components/Api/Api'
 // import './api.css'
-import Main from './components/Map Statements and Keys/Main'
+// import Main from './components/Map Statements and Keys/Main'
 import Avatar from './components/Map Statements and Keys/Avatar/Avatar'
 import Focus from './components/Ref/Focus/Focus'
 import Copy from './components/Ref/Copy/Copy';
+import axios from "axios";
+import Main from './components/crud_mini-project/main'
+import Followers from "./components/crud_mini-project/main";
+import "./app.css";
+
+
+
 
 
 
 function App() {
+
   return (
     <div>
-      <Copy/>
+ 
+    <Main/>
+      {/* <Copy/> */}
 
       {/* <Focus/> */}
       {/* <Avatar/> */}
@@ -48,17 +58,17 @@ function App() {
       {/* <DataList /> */}
 
       {/* <Api /> */}
-{/* <Formw /> */}
+      {/* <Formw /> */}
 
-{/* <Parent /> */}
-{/* <Cbapp /> */}
+      {/* <Parent /> */}
+      {/* <Cbapp /> */}
 
 
- {/* <Basics /> */}
- {/* <Box1 /> */}
-{/* <Quiz /> */}
-{/* <Buttons/> */}
-{/* <Card 
+      {/* <Basics /> */}
+      {/* <Box1 /> */}
+      {/* <Quiz /> */}
+      {/* <Buttons/> */}
+      {/* <Card 
 src={'https://picsum.photos/200'}
 textTitle={'title 1'}
 desc={'description 1'}
@@ -82,20 +92,20 @@ link1={'Explore'}
 link2={'Share'}
 
 // /> */}
-{/* // {  */}
-{/* <Counter/> */}
-{/* <Showbox/> */}
-{/* <LifeCycle /> */}
-{/* <Boxanimation  width='200px'/>
+      {/* // {  */}
+      {/* <Counter/> */}
+      {/* <Showbox/> */}
+      {/* <LifeCycle /> */}
+      {/* <Boxanimation  width='200px'/>
 <Boxanimation  width='100px'/>
 <Boxanimation  width='50px'/> */}
       {/* <Box /> */}
     </div>
-    
+
   );
 }
 
-export default App; 
+export default App;
 
 
 // class App extends React.Component {
