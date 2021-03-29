@@ -37,7 +37,9 @@ import Copy from './components/Ref/Copy/Copy';
 import axios from "axios";
 import Main from './components/crud_mini-project/main'
 import Followers from "./components/crud_mini-project/main";
-import "./app.css";
+// import "./app.css";
+import './text.css'
+import Readmore from './components/React Function Components/text'
 
 
 
@@ -48,8 +50,9 @@ function App() {
 
   return (
     <div>
+      <Readmore/>
  
-    <Main/>
+    {/* <Main/> */}
       {/* <Copy/> */}
 
       {/* <Focus/> */}
