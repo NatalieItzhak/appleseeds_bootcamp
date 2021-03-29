@@ -1,4 +1,33 @@
-a{
+/* a{
     color: crimson;
     text-decoration:underline;
-}
+} */
+
+body{
+    background: rgb(255, 173, 65);
+    }
+ .tasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 200px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+ }
+ h1 {
+    align-items: center;
+    text-align: center;
+  
+ }
+ .container{
+     border: 2px solid white;
+     width:500px;
+     height: 30rem;
+     margin: 20px auto;
+     padding: 10px 10px;
+ }
+ button{
+     background-color: brown;
+ }
