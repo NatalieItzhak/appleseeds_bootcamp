@@ -38,9 +38,10 @@ import axios from "axios";
 import Main from './components/crud_mini-project/main'
 import Followers from "./components/crud_mini-project/main";
 // import "./app.css";
-import './text.css';
-import Task from './components/React Function Components/todo'
+// import './text.css';
+import TodoList from './components/React Function Components/todo'
 import Readmore from './components/React Function Components/text'
+import WhatsTheTime from './components/React Function Components/time'
 
 
 
@@ -51,7 +52,9 @@ function App() {
 
   return (
     <div>
-      <Task/>
+
+      <WhatsTheTime/>
+      {/* <TodoList/> */}
       {/* <Readmore/> */}
  
     {/* <Main/> */}
