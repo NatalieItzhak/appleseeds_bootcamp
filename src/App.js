@@ -42,6 +42,7 @@ import Followers from "./components/crud_mini-project/main";
 import TodoList from './components/React Function Components/todo'
 import Readmore from './components/React Function Components/text'
 import WhatsTheTime from './components/React Function Components/time'
+import MarkAndDelete from './components/React Function Components/mark'
 
 
 
@@ -53,7 +54,9 @@ function App() {
   return (
     <div>
 
-      <WhatsTheTime/>
+      <MarkAndDelete/>
+
+      {/* <WhatsTheTime/> */}
       {/* <TodoList/> */}
       {/* <Readmore/> */}
  
