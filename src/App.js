@@ -43,7 +43,7 @@ import TodoList from './components/React Function Components/todo'
 import Readmore from './components/React Function Components/text'
 import WhatsTheTime from './components/React Function Components/time'
 import MarkAndDelete from './components/React Function Components/mark'
-
+import StarWars from './components/use_effect/fetch'
 
 
 
@@ -54,7 +54,9 @@ function App() {
   return (
     <div>
 
-      <MarkAndDelete/>
+      <StarWars/>
+
+      {/* <MarkAndDelete/> */}
 
       {/* <WhatsTheTime/> */}
       {/* <TodoList/> */}
