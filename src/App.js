@@ -45,6 +45,8 @@ import WhatsTheTime from './components/React Function Components/time'
 import MarkAndDelete from './components/React Function Components/mark'
 import StarWars from './components/use_effect/fetch'
 import Countries from './components/use_effect/countries'
+import Alogolia from './components/use_effect/Alogolia'
+import CancelRequest from './components/use_effect/Cancel'
 
 
 
@@ -54,7 +56,9 @@ function App() {
 
   return (
     <div>
-<Countries/>
+      <CancelRequest/>
+      {/* <Alogolia/> */}
+{/* <Countries/> */}
       {/* <StarWars/> */}
 
       {/* <MarkAndDelete/> */}
