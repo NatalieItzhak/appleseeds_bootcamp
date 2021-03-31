@@ -47,6 +47,7 @@ import StarWars from './components/use_effect/fetch'
 import Countries from './components/use_effect/countries'
 import Alogolia from './components/use_effect/Alogolia'
 import CancelRequest from './components/use_effect/Cancel'
+import Editing from './components/use_effect/edit'
 
 
 
@@ -56,7 +57,8 @@ function App() {
 
   return (
     <div>
-      <CancelRequest/>
+      <Editing/>
+      {/* <CancelRequest/> */}
       {/* <Alogolia/> */}
 {/* <Countries/> */}
       {/* <StarWars/> */}
